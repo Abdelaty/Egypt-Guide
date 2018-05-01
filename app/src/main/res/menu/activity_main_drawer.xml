@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/egypt">
+            <menu>
+                <item
+                    android:id="@+id/nav_cairo"
+                    android:title="@string/cairo"
+                    app:itemBackground="@color/colorPrimaryLight" />
+                <item
+                    android:id="@+id/nav_giza"
+                    android:title="@string/giza"
+                    app:itemBackground="@color/colorPrimaryLight" />
+
+                <item
+                    android:id="@+id/nav_alexandria"
+                    android:title="@string/alexandria"
+                    app:itemBackground="@color/colorPrimaryLight" />
+                <item
+                    android:id="@+id/nav_luxor"
+                    android:title="@string/luxor"
+                    app:itemBackground="@color/colorPrimaryLight" />
+            </menu>
+        </item>
+    </group>
+    <item android:title="@string/transportation">
+        <menu>
+            <item
+                android:id="@+id/nav_metro_map"
+                android:title="@string/metro"
+                app:itemBackground="@color/colorPrimaryLight" />
+            <item
+                android:id="@+id/nav_train_map"
+                android:title="@string/train"
+                app:itemBackground="@color/colorPrimaryLight" />
+        </menu>
+    </item>
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share"
+                app:itemBackground="@color/colorPrimaryLight" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/about"
+                app:itemBackground="@color/colorPrimaryLight" />
+        </menu>
+    </item>
+
+
+</menu>
+
