@@ -34,6 +34,16 @@
     <string name="valley_of_kings">Valley Of Kings</string>
     <string name="valley_of_queens">Valley Of Queens</string>
     <string name="images">Images</string>
+    <string name="title_activity_test">Test</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="metro_map">Metro Map</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="tab_text_1">About</string>
+    <string name="tab_text_2">Videos</string>
+    <string name="tab_text_3">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
 
 

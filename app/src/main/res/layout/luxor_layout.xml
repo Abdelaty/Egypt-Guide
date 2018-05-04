@@ -1,60 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:id="@+id/luxor_listView"
     android:layout_height="match_parent">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:ignore="UselessParent">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageButton
-                android:id="@+id/luxor1"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/image_height"
-                android:layout_margin="@dimen/border_margin"
-                android:contentDescription="@string/hatshbsot"
-                android:scaleType="fitXY"
-                android:src="@drawable/hatshbsot1"
-                android:visibility="visible" />
-
-            <ImageButton
-                android:id="@+id/luxor2"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/image_height"
-                android:layout_marginLeft="@dimen/border_margin"
-                android:layout_marginRight="@dimen/border_margin"
-                android:contentDescription="@string/el_karnak"
-                android:scaleType="fitXY"
-                android:src="@drawable/karnak1"
-                android:visibility="visible" />
-
-            <ImageButton
-                android:id="@+id/luxor3"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/image_height"
-                android:layout_margin="@dimen/border_margin"
-                android:contentDescription="@string/valley_of_kings"
-                android:scaleType="fitXY"
-                android:src="@drawable/valleykings1"
-                android:visibility="visible" />
-
-            <ImageButton
-                android:id="@+id/luxor4"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/image_height"
-                android:layout_marginRight="@dimen/border_margin"
-                android:layout_marginLeft="@dimen/border_margin"
-                android:contentDescription="@string/valley_of_queens"
-                android:scaleType="fitXY"
-                android:src="@drawable/valleyquieens4"
-                android:visibility="visible" />
-        </LinearLayout>
-    </ScrollView>
-</RelativeLayout>
+</ListView>

@@ -25,17 +25,20 @@ public class PlacesAdapter extends ArrayAdapter {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list, parent, false);
         }
-        Images currentArtist = (Images) getItem(position);
+        Images currentImage = (Images) getItem(position);
         // Find the TextView in the list_item.xml layout with the ID version_name
-        TextView nameTextView = (TextView) listItemView.findViewById(R.id.textView);
+        TextView nameTextView = listItemView.findViewById(R.id.textView);
         // Get the Place Name
         // set this text on the name TextView
-        assert currentArtist != null;
-        nameTextView.setText(currentArtist.getmPlacesName());
+        nameTextView.setText(currentImage.getmPlacesName());
 
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.imageView);
+        ImageView imageView = listItemView.findViewById(R.id.imageView);
         // Get the image resource ID
+        imageView.setImageResource(currentImage.getImageResourceId());
+
         // set the image to imageView
+        imageView.setVisibility(View.VISIBLE);
+
         imageView.getDrawable();
 
 
